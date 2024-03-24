@@ -14,6 +14,6 @@ To run inside docker container, use below commands
 
 To build docker image, use the command below - `docker build -t your_tag_name  .`
 
-To run the generated container, use this command - `docker run -p8080:8081 your_tag_name`. This will run the server on 8080 port.. You can change the ports as per your needs. 
+To run the generated container, use this command - `docker run -p8080:8080 your_tag_name`. This will run the server on 8080 port.. You can change the ports as per your needs. 
 
 
