@@ -6,8 +6,6 @@ import com.project.starter.data.GreetingsEntity;
 import com.project.starter.exchange.ResponseDto;
 import com.project.starter.repository.GreetingsRepository;
 import com.project.starter.service.GreetingsService;
-
-import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
