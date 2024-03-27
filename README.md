@@ -22,14 +22,14 @@ Dependencies: `Java JDK & MongoDB`
 
 1. `./gradlew bootrun` : start the spring server on port 8081
 2. List of REST APIs implemented 
-    2.1 GET `http://localhost:8081/memes` : Returns list of top 100 memes on database.
-    2.2 GET `http://localhost:8081/memes/1` : Returns meme with specified Id and Error:404 if not found.
-    2.3 POST `http://localhost:8081/memes` : Post unique memes to mongo db (Name,Caption and URL should be unique) and returns the generated unique meme Id
-        JSON Data posted to the server: 
-        {
+    <br/>2.1 GET `http://localhost:8081/memes` : Returns list of top 100 memes on database.
+    <br/>2.2 GET `http://localhost:8081/memes/1` : Returns meme with specified Id and Error:404 if not found.
+    <br/>2.3 POST `http://localhost:8081/memes` : Post unique memes to mongo db (Name,Caption and URL should be unique) and returns the generated unique meme Id
+        <br/>JSON Data posted to the server: 
+        <br/>`{
             "name" : "sambit",
             "caption" : "smaple meme",
             "url" : "dummy url"
-        }
+       }`
 
 
