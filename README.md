@@ -16,8 +16,8 @@ To build docker image, use the command below - `docker build -t your_tag_name  .
 
 To run the generated container, use this command - `docker run -p8080:8080 your_tag_name`. This will run the server on 8080 port.. You can change the ports as per your needs. 
 
-###Application Workflow:- 
-####Dependencies: `Java JDK & MongoDB`
+### Application Workflow:- 
+#### Dependencies: `Java JDK & MongoDB`
 
 1. `./gradlew bootrun` : start the spring server on port 8081
 2. List of REST APIs implemented 
@@ -31,5 +31,5 @@ To run the generated container, use this command - `docker run -p8080:8080 your_
             "url" : "dummy url"
        }`
 
-####To-Do : `FrontEnd & UnitTest Codes`
+#### To-Do : `FrontEnd & UnitTest Codes`
 
