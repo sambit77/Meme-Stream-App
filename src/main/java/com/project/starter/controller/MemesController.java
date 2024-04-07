@@ -69,22 +69,19 @@ public class MemesController {
                 message = m.getName() + " "+ "-> already exists in database.";
                 break;
             }
-            else if(m.getCaption().equals(memeEntity.getCaption()))
+            if(m.getCaption().equals(memeEntity.getCaption()))
             {
                 isDuplicateentry = true;
                 message = m.getCaption() + " "+ "-> already exists in database.";
                 break;
             }
-            else if(m.getUrl().equals(memeEntity.getCaption()))
+            if(m.getUrl().equals(memeEntity.getUrl()))
             {
                 isDuplicateentry = true;
                 message = m.getUrl() + " "+ "-> already exists in database.";
                 break;
             }
-            else 
-            {
-
-            }
+    
         }
 
         if(isDuplicateentry == false)
